@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+channels = "*"
+channels-redis = "*"
+python-dotenv = "*"
+markdown = "*"
+django-filter = "*"
+django-cors-headers = "*"
+uuid = "*"
+djangorestframework-simplejwt = "*"
+daphne = "*"
+gunicorn = "*"
+psycopg = "*"
+psycopg2 = "*"
+psycopg2-binary = "*"
+dj-database-url = "*"
+whitenoise = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
